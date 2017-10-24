@@ -56,7 +56,7 @@ namespace WorldCollector.Taobao.TaskQueues
             }
             else
             {
-                Finished = true;
+                Completed = true;
                 return null;
             }
         }
